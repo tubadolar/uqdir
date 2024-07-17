@@ -1,8 +1,8 @@
 # uqdir
-Uncertainty Quantification Driven Machine Learning for Improving Model Accuracy in Imbalanced Regression Tasks
+# Uncertainty Quantification Driven Machine Learning for Improving Model Accuracy in Imbalanced Regression Tasks
 
 Tuba Dolar, Jie Chen, Wei Chen
 
-![Figure 3](https://github.com/user-attachments/assets/6314d71e-4e70-40d8-94a8-09372948007b)
+![Figure 3](https://github.com/user-attachments/assets/6314d71e-4e70-40d8-94a8-09372948007b | width=50)
 
 Several factors are known to determine the quality of machine learning models, one of which is the dataset quality. One problem related to the quality of a dataset is the imbalance issue. An imbalanced dataset contains significantly more data points for certain values of the output variable which increases the overfitting risk and negatively affects the prediction accuracy. In this article, we propose using epistemic uncertainty quantification (UQ) of machine learning models to identify rare samples in imbalanced regression problems for balancing the dataset. The developed algorithm, uncertainty quantification-driven imbalanced regression (UQDIR), is guided by UQ to restructure the training set with an adequate weight function using existent samples, eliminating the need for new data collection. After identifying rare samples with UQ, the algorithm selects a sample from the training set, assigns a resampling weight using the new weight function, and finally resamples the selected sample according to its assigned weight. We test UQDIR on several benchmark datasets and different machine learning algorithms, then compare its performance with similar imbalanced regression methods. A metamaterial design problem application is also provided for demonstrating the effectiveness of the algorithm in real-world scenarios. We show that improving the quality of UQ metrics results in improved model accuracy.
